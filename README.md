@@ -4,8 +4,8 @@
 Discover destinations, filter options, and plan trips with a simple itinerary.
 
 ## Demo
-- Live: <your-deploy-url>
-- Video walkthrough: <loom-or-youtube>
+- Live: [https://travel-planner-ten-azure.vercel.app/]
+- Video walkthrough: [https://www.loom.com/share/436fad643a694d7db104d5329563a671?sid=9bb2a078-d3ae-4f62-9b3f-55a7bc5165eb]
 
 ## Features
 - Search cities (Amadeus API or local mock)
