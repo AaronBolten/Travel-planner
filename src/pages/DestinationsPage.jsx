@@ -6,7 +6,7 @@ import FeaturedDestinations from "../components/FeaturedDestinations";
 import FiltersBar from "../components/FiltersBar";
 import ErrorBanner from "../components/ErrorBanner";
 import { DestinationCardSkeleton } from "../components/Skeletons";
-
+import Footer from "../components/footer";
 export default function DestinationsPage() {
   // removed: const [query, setQuery] = useState("");
   const [raw, setRaw] = useState([]);
@@ -71,6 +71,7 @@ export default function DestinationsPage() {
           </>
         )}
       </main>
+      <Footer />
     </>
   );
 }

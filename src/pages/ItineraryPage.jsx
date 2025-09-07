@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Navbar from "../components/Navbar";
 import { addItem, loadItinerary, removeItem } from "../features/itinerary/storage";
-
+import Footer from "../components/footer";
 const TRIP_TYPES = ["Adventure", "Relaxing", "Cultural", "Foodie", "Family", "Romantic"];
 
 export default function ItineraryPage() {
@@ -168,6 +168,7 @@ export default function ItineraryPage() {
           )}
         </section>
       </main>
+      <Footer />
     </>
   );
 }
